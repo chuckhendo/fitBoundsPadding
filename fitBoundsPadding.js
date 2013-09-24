@@ -64,6 +64,10 @@
 
 						_extendBoundsByPaddingValue(bounds, opts);
 				}
+				
+				else {
+					oldFitBounds.call(this, bounds);
+				}
 
 		}
 })();
